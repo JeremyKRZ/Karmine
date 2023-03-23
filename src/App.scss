@@ -1,6 +1,7 @@
 @use '../src/styles/variables';
 @use '../src/styles/navbar.scss' as navbar;
 @use '../src/styles/home.scss' as home;
+@use '../src/styles/teams.scss' as teams;
 
 body, html{
   font-family: 'Plus Jakarta Sans', sans-serif;

@@ -39,6 +39,7 @@ $partenaires-height: 150px;
       justify-content: center;
       margin-left: auto;
       margin-right: 50px;
+      animation: 3s ease-in-out brand;
 
       .logo {
         width: 300px;
@@ -86,5 +87,14 @@ $partenaires-height: 150px;
 @media (max-width: 1039px) {
   .carousel{
     cursor: grabbing;
+  }
+}
+
+@keyframes brand{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
   }
 }
